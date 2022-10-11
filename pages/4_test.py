@@ -34,7 +34,7 @@ def vision_demo():
     # this button is not connected to any other logic, it just causes a plain
     # rerun.
     #st.button("Re-run")
-    st.video(url)
+    st.video("https://www.youtube.com/watch?v=eWNOaEbxhd4")
 
 
 st.set_page_config(page_title="ComputerVision Demo", page_icon="")
