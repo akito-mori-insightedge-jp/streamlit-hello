@@ -20,17 +20,18 @@ LOGGER = get_logger(__name__)
 
 def run():
     st.set_page_config(
-        page_title="Demo Top Page",
+        page_title="Top Page",
         page_icon="",
     )
 
-    #st.write("# Welcome to Streamlit! 👋")
+    st.write("# デモ　置き場")
 
     st.sidebar.success("Select a demo above.")
 
     st.markdown(
     """
-        これまでに作成したデモや資料を掲載しています。
+        これまでに作成したデモや資料、動画を掲載しています。
+        左のサイドバーから興味のあるコンテンツを選択してください。
     """
     )
 
